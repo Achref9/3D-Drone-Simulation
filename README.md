@@ -1,21 +1,14 @@
-# WebBaseDroneSimulation
+# 3D-Drone-Simulation
 
-Controller Information
+Controller Information (layout in AZERTY)
 
-C button changes camera to droneCamera
-M button changes camera to droneCameraTwo which is looking the bomb
-V button allows to you change camera vision with controller
-B button relase the bomb
-# Three.js Drone Simulation
-
-This repository contains a Three.js project that simulates a 3D drone environment. It leverages modern web technologies to create a realistic and interactive drone simulation. The project is an excellent demonstration of Three.js capabilities in rendering 3D graphics in a web browser.
-
-## Features
-
-- Realistic 3D drone model
-- Interactive controls for drone navigation
-- Dynamic environment with adjustable sky, lighting, and terrain
-- Real-time rendering with Three.js
+1. ZSDQ standard 4 directional movement
+2. C button accelerates your drone
+3. V button changes camera from 1st person to 3rd person (vice versa)
+4. E button allows you to rotate to the right
+5. A button allows you to rotate to the left
+6. SHIFT button allows you to ascend the drone
+7. Control button allows you to ascend the drone
 
 ## Getting Started
 
@@ -27,18 +20,3 @@ To run this project locally, follow these steps:
 4. Start the server: `node server.js`
 5. Open your web browser and navigate to `http://localhost:8080/`.
 
-## Code Overview
-
-The main components of the code include:
-
-- **Drone Model Loading**: Using GLTFLoader to load the 3D drone model.
-- **Environment Setup**: Creating a dynamic sky, sun positioning, and realistic terrain.
-- **Drone Controls**: Handling drone movement based on WebSocket data.
-- **Rendering Loop**: Continuously rendering the scene with updated drone positions and environment settings.
-
-
-![Screenshot 2023-12-10 222911](https://github.com/civanahmetyasin/WebBaseDroneSimulation/assets/69795597/8d44d699-b774-4e23-b3f5-eb09acfcb3a8)
-
-
-
-Info: Bomb animation play speed changes with dron's y location.
