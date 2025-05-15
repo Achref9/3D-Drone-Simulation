@@ -20,10 +20,3 @@ To run this project locally, follow these steps:
 4. Start the server: `node server.js`
 5. Open your web browser and navigate to `http://localhost:8080/`.
 
-
-
-![Screenshot 2023-12-10 222911](https://github.com/civanahmetyasin/WebBaseDroneSimulation/assets/69795597/8d44d699-b774-4e23-b3f5-eb09acfcb3a8)
-
-
-
-Info: Bomb animation play speed changes with dron's y location.
