@@ -2,13 +2,13 @@
 
 Controller Information (layout in AZERTY)
 
-ZSDQ standard 4 directional movement
-C button accelerates your drone
-V button changes camera from 1st person to 3rd person (vice versa)
-E button allows you to rotate to the right
-A button allows you to rotate to the left
-SHIFT button allows you to ascend the drone
-Control button allows you to ascend the drone
+1. ZSDQ standard 4 directional movement
+2. C button accelerates your drone
+3. V button changes camera from 1st person to 3rd person (vice versa)
+4. E button allows you to rotate to the right
+5. A button allows you to rotate to the left
+6. SHIFT button allows you to ascend the drone
+7. Control button allows you to ascend the drone
 
 ## Getting Started
 
