@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My first three.js app</title>
+  <style>
+  body { 
+    margin: 0; 
+    background-color: #282C34;
+    font-family: Arial, sans-serif; 
+    color: #FFF; 
+  }
+
+  #info {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 15px; 
+    color: #A40808;
+    background-color: #1D1D24; 
+    border-radius: 10px; 
+    font-size: 1.1em;
+    z-index: 1;
+    border: 2px dashed #A40808;
+  }
+
+  #control-panel {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+  }
+
+  .panel {
+    padding: 10px;
+    background: rgba(29, 29, 36, 0.8);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #A40808;
+  }
+
+  .joystick-container {
+    width: 150px;
+    height: 150px;
+    background: rgba(11, 10, 10, 0.1);
+    border-radius: 75px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .joystick {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #A40808;
+    border-radius: 25px;
+    transition: all 0.2s ease;
+  }
+
+  /* Crosshair styles */
+  .joystick-container::before, .joystick-container::after {
+    content: "";
+    position: absolute;
+    background: #A40808;
+  }
+
+  .joystick-container::before {
+    width: 2px;
+    height: 100%;
+    
+  }
+
+  .joystick-container::after {
+    width: 100%;
+    height: 2px;
+  }
+  </style>
+</head>
+<body>
+  <div id="info">
+    <p id="speed">Speed: 0</p>
+    <p id="position">Position: (0, 0, 0)</p>
+  </div>
+
+
+
+  <script src="https://threejs.org/build/three.js"></script>
+  <script type="module" src="drone.js"></script>
+
+  <script>
+  </script>
+</body>
+</html>
